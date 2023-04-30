@@ -17,7 +17,7 @@ export default function Home() {
           Portfolio.
         </h1>
         <div
-          className="w-[30vw] h-[5vh] rounded-xl light:bg-slate-700 dark:bg-white light:text-white dark:text-slate-500 flex justify-center items-center self-center cursor-help"
+          className="w-[30vw] h-[5vh] rounded-xl bg-slate-700 dark:bg-white text-white dark:text-slate-500 flex justify-center items-center self-center cursor-help"
           onClick={handleClick}
         >
           <span>{wordsList[clicked]}</span>
