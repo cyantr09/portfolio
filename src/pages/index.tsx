@@ -13,11 +13,11 @@ export default function Home() {
   return (
     <main className="h-screen flex justify-center items-center cursor-not-allowed">
       <div className="flex flex-col">
-        <h1 className="font-mono text-center text-[5vw] self-center">
+        <h1 className="font-mono text-center sm:text-[10vw] md:text-[5vw] self-center">
           Portfolio.
         </h1>
         <div
-          className="w-[30vw] h-[5vh] rounded-xl bg-slate-700 dark:bg-white text-white dark:text-slate-500 flex justify-center items-center self-center cursor-help"
+          className="sm:w-[60vw] md:w-[30vw] h-[5vh] rounded-xl bg-slate-700 dark:bg-white text-white dark:text-slate-500 flex justify-center items-center self-center cursor-help"
           onClick={handleClick}
         >
           <span>{wordsList[clicked]}</span>
