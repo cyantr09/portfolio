@@ -4,7 +4,7 @@ import Card from "./components/WorkCard";
 export default function Works() {
   return (
     <main className="h-screen flex justify-center font-mono">
-      <div className="mt-[10vh] w-[90vw] h-[80vh]">
+      <div className="mt-[9vh] w-[90vw] h-[90vh] overflow-auto">
         <h1 className="text-6xl text-center">My Works</h1>
         <motion.div
           className=" flex justify-center items-center flex-col lg:flex-row"
@@ -18,9 +18,9 @@ export default function Works() {
             },
           }}
         >
-          <Card title="hello" color="#A8C7D4" />
-          <Card title="hello" color="#E8CF8A" />
-          <Card title="hello" color="#5F6487" />
+          <Card title="..." color="#A8C7D4" />
+          <Card title="..." color="#E8CF8A" />
+          <Card title="..." color="#5F6487" />
         </motion.div>
       </div>
     </main>
