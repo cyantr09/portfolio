@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-import Card from "./components/WorkCard";
+import Card from "../components/WorkCard";
 export default function Works() {
   return (
     <main className="h-screen flex flex-col items-center font-mono">
@@ -25,10 +25,10 @@ export default function Works() {
             link="/planner"
           />
           <Card
-            title="예정..."
+            title="happyBirthday 생축"
             color="#E8CF8A"
-            detail="상상도 못한 정체"
-            link="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            detail="친구를 위한 생일축하 사이트"
+            link="/birthday"
           />
           <Card
             title="예정..."

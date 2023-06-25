@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { motion, useAnimate } from "framer-motion";
-import TodoList from "./components/ToDo";
+import TodoList from "../components/ToDo";
 
 export default function Planner() {
   const [scope, animate] = useAnimate();
