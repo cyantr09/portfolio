@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import Card from "./components/WorkCard";
 export default function Works() {
   return (
-    <main className="h-screen flex justify-center font-mono">
-      <div className="mt-[9vh] w-[90vw] h-[90vh] overflow-auto">
-        <h1 className="text-6xl text-center">My Works</h1>
+    <main className="h-screen flex flex-col items-center font-mono">
+      <h1 className="mt-[9vh] text-6xl text-center">My Works</h1>
+      <div className="w-full h-[90vh] overflow-auto">
         <motion.div
           className=" flex justify-center items-center flex-col lg:flex-row"
           initial={{
@@ -18,9 +18,24 @@ export default function Works() {
             },
           }}
         >
-          <Card title="..." color="#A8C7D4" />
-          <Card title="..." color="#E8CF8A" />
-          <Card title="..." color="#5F6487" />
+          <Card
+            title="Planner 플래너"
+            color="#A8C7D4"
+            detail="NextJS로 만들어보는 간단한 TODO앱"
+            link="/planner"
+          />
+          <Card
+            title="예정..."
+            color="#E8CF8A"
+            detail="상상도 못한 정체"
+            link="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          />
+          <Card
+            title="예정..."
+            color="#5F6487"
+            detail="ㄴㅇㄱ"
+            link="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          />
         </motion.div>
       </div>
     </main>
