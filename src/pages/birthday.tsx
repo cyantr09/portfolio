@@ -7,7 +7,7 @@ export default function Birthday() {
   return (
     <main className="w-screen h-screen flex justify-center items-center">
       <button
-        className="w-[50vw] h-[10vh] bg-teal-200 rounded-2xl"
+        className="w-[50vw] h-[10vh] bg-slate-500 rounded-2xl"
         onClick={() => setShowModal(true)}
       >
         Make Website
